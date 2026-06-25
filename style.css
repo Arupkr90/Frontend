@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color:#f4f6f9;
+    padding:40px;
+}
+.Resume{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+address{
+    font-style: normal;
+    padding: 0px;
+}
+hr{ 
+    border: 1.5px solid black; 
+    text-align: center; 
+    width: 550px;
+}
+a{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border-radius:5px;
+    margin-top:5px;
+}
+a:hover{
+    background:#1e40af;
+    color:white;
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+     color:#2563eb;
+    font-size:42px;
+    margin-bottom:5px;
+}
+h4{
+    color:#2563eb;
+    border-bottom:2px solid #2563eb;
+    padding-bottom:5px;
+    margin-top:25px;
+}
+.skills li{
+    background:#e0f2fe;
+    display:inline-block;
+    padding:8px 12px;
+    margin:5px;
+    border-radius:20px;
+    list-style:none;
+}
+.experience li{
+    background:#e0f2fe;
+    display:inline-block;
+    padding:8px 12px;
+    margin:5px;
+    border-radius:20px;
+    list-style:none;
+}
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    border-color:#2563eb;
+}
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:12px 20px;
+}
+button:hover{
+    background:#1e40af;
+}
